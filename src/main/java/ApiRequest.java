@@ -30,4 +30,7 @@ public class ApiRequest {
         return body;
     }
 
+    public String toString(){
+        return "ApiRequest" + method+ " ," + url +", header" + header+ ", body=" + body;
+    }
 }
