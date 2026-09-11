@@ -11,19 +11,19 @@ public class CurlCommandBuilder implements RequestBuilder {
     private String header;
     private String body;
 
-    @Override
+
     public CurlCommandBuilder setMethod(HttpMethod method) {
         this.method = method;
         return this;
     }
 
-    @Override
+
     public CurlCommandBuilder setUrl(String url) {
         this.url = url;
         return this;
     }
 
-    @Override
+
     public CurlCommandBuilder setHeader(String header) {
         this.header = header;
         return this;
